@@ -3,15 +3,12 @@ import json
 
 app = Flask(__name__)
 
-def load_products():
-    with open('products.txt', 'r') as file:
-        products = json.load(file)
-    return products
+
 
 @app.route('/')
 def index():
-    products = load_products()
-    return render_template('index.html', products=products)
+
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
