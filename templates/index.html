@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Gym Vouge</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='images/file.jpg') }}" alt="logo" width="45px">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Elevate Your Fitness Game With Gym Vogue!</h1>
+                    <p>Discover top-rated fitness gear and stylish activewear</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="{{ url_for('static', filename='images/duo.png') }}" alt="duo" width="45px">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
