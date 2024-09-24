@@ -162,10 +162,12 @@ small{
     cursor: pointer;
     transition: transform 0.5s;
 }
-.testimonial .col-3 img{
+.testimonial .col-3 img {
     width: 50px;
+    height: 50px;
     margin-top: 20px;
     border-radius: 50%;
+    object-fit: cover;
 }
 .testimonial .col-3:hover{
     transform: translateY(-10px);
