@@ -73,17 +73,55 @@ p{
 .btn:hover{
     background: #240b36;
 }
-.categories{
+.categories {
     margin: 70px 0;
 }
-.col-3{
+
+.col-3 {
     flex-basis: 30%;
     min-width: 250px;
     margin-bottom: 30px;
+    position: relative;
 }
-.col-3 img{
+
+.col-3 img {
     width: 100%;
+    transition: all 0.3s ease;
 }
+
+.category-item {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Darker Grey overlay */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding-bottom: 20px; /* Adjusts spacing at the bottom */
+}
+
+.overlay h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    margin: 0;
+    color: #fff;
+}
+
+.category-item:hover .overlay {
+    opacity: 1;
+}
+
 .small-container{
     max-width: 1080px;
     margin: auto;
