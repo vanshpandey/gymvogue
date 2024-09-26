@@ -1,0 +1,25 @@
+{
+    "bags": [
+        {
+            "name": "Nivia Deflate Round 01 Polyester Gym Bag/Unisex Gym Bags/Adjustable Shoulder Bag for Men/Duffle Gym",
+            "price": 469,
+            "description": "Strong stitching at major stress points...",
+            "link": "https://www.amazon.in/Nivia-Deflate-Polyester-Round-Adult/dp/B07BQQ41DB/",
+            "image": "bag1img1.jpg"
+        },
+        {
+            "name": "NIVIA Deflate Round 01 Polyester Gym Bag/Unisex Gym Bags/Adjustable Shoulder Bag for Men/Duffle Gym Bags",
+            "price": 499,
+            "description": "Strong stitching at major stress points...",
+            "link": "https://www.amazon.in/Nivia-Deflate-Polyester-Round-Adult/dp/B07BQQ41DB/",
+            "image": "bag2img1.jpg"
+        },
+        {
+            "name": "Nivia Jungle Round Bag, Round Gym Bag, 100% Polyester Duffle Bag,Adjustable Shoulder Strap, Gym Bag for Men/Women (Dark Green)",
+            "price": 439,
+            "description": "Strong stitching at major stress points gym bags for men",
+            "link": "https://www.amazon.in/Nivia-Jungle-Round-Bag-D-Green/dp/B08D7P9TJ4/?creative=165953&creativeASIN=B08D7P9TJ4",
+            "image": "bag3img1.jpg"
+        }
+    ]
+}
