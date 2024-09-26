@@ -19,13 +19,12 @@
             </div>
             <nav>
                 <ul id="MenuItems">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="{{ url_for('home') }}">Home</a></li>
+                    <li><a href="{{ url_for('products') }}">Products</a></li>
+                    <li><a href="{{ url_for('about') }}">About Us</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
                 </ul>
-            </nav>
-            <img src="{{ url_for('static', filename='images/cart.png') }}" alt="cart" width="20px" height="20px">
+            </nav>            
             <img class="menu-icon" src="{{ url_for('static', filename='images/menu.png') }}" alt="menu" onclick="menutoggle( )">
         </div>
     </div>
@@ -53,7 +52,7 @@
                 <p>Home / Pants</p>
                 <h1>Olive Jean By HRX</h1>
                 <h4>&#8377;2999</h4>
-                <a href="" class="btn">Add To Cart</a>
+                <a href="" class="btn">Visit Website</a>
                 <h3>Product Details <i class="fa fa-indent" aria-hidden="true"></i></h3>
                 <br>
                 <p>"I love how Gym Vogue helps me find the best deals on my favorite products. I can easily browse through different options, and when I'm ready to buy, the site sends me directly to where it's sold. No more endless searching—this site saves me so much time!</p>
